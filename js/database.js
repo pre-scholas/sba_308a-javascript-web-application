@@ -1,3 +1,5 @@
+const network =
+
 {
     "networks": [
     {
@@ -3991,4 +3993,5 @@
     "href": "/v2/networks/zena-by-bike"
     }
     ]
+
     }
