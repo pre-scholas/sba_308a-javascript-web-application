@@ -6,29 +6,60 @@
 }
 
 body {
- background: #7159c1;
- color: #fff;
- font-family: Arial, Helvetica, sans-serif;
+  background: #7159c1;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
-body, input, button {
- font-size: 12px;
- /* font-family: ; */
+body,
+input,
+button {
+  font-size: 12px;
+  /* font-family: ; */
 }
 
 button {
- cursor: pointer;
+  cursor: pointer;
 }
 
 .content__form {
-    width: 70%;
-    margin: 20px;
-    
-    border: solid 1px #e6d521;
+  width: 70%;
+  margin: 20px;
+
 }
 
 .networkSelect {
- background-color: #333;
- color: #fff;
+  background-color: #333;
+  color: #fff;
   padding: 20px;
+}
+
+.station-container {
+  margin-top: 20px;
+  width: 1000px;
+  height: 500px;
+  border: solid 1px #e6d521;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+
+}
+
+.station {
+  /* width: 100px; */
+  
+
+  padding: 20px;
+  color: #eee;
+
+   border-radius: 5px;
+  background: #242424;
 }

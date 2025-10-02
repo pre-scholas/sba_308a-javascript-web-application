@@ -4,7 +4,7 @@
 document.addEventListener(
 	'DOMContentLoaded',
 	() => {
-		// const API_KEY = "api"
+		
 		const stationDetailsContainer =
 			document.getElementById(
 				'station-details',
